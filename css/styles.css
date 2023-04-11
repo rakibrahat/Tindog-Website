@@ -190,6 +190,7 @@
 }
 
 #pricing>h2 {
+    padding: 0 1rem;
     color: #ff4c68;
     font-weight: 500;
 }
