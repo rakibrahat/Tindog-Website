@@ -1,0 +1,340 @@
+* {
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+.logo {
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white !important;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: rgb(236, 227, 227) !important;
+}
+
+
+/* 1st Section */
+#title {
+    background-color: #ff4c68;
+    color: white;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.title-section {
+    padding: 1% 15%;
+}
+
+
+/* Hero Section */
+.hero {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.hero-text {
+    margin-bottom: 3%;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: clamp(1rem, 1.5vw + 1.5rem, 4.5rem);
+    line-height: 1.5;
+    margin-bottom: 10%;
+}
+
+.download-btn-dark:hover {
+    color: #ff4c68;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.download-btn-outline-light:hover {
+    color: #ff4c68;
+}
+
+.download-btn-dark,
+.download-btn-outline-light {
+    font-weight: bold;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.hero-img {
+    padding-left: 7%;
+}
+
+.hero-img>img {
+    width: 90%;
+    transform: rotate(20deg);
+}
+
+
+
+/* Feature Section */
+
+#features {
+    text-align: center;
+    padding: 6% 6rem;
+}
+
+.feature-column {
+    margin: 2rem 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.icon-1 {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    transition: all 0.1s;
+}
+
+.icon-1:hover {
+    color: #ff4c68;
+}
+
+.feature-column>h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.feature-column>p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(88, 88, 88);
+}
+
+#testimonial-and-press {
+    background-color: #ef8172;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    padding: 3% 0;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item>h2 {
+    width: 60%;
+    padding: 0 6%;
+    margin: 0 auto;
+    font-size: clamp(1rem, 0.5vw + 1rem, 2rem);
+}
+
+.carousel-item>img {
+    display: block;
+    width: 10%;
+    /* padding: 3% 6%; */
+    margin: 1.5rem auto 1rem;
+    border-radius: 100%;
+}
+
+.carousel-item>em {
+    font-weight: 500;
+    padding: 0 6%;
+    transition: all 0.2s;
+}
+
+.carousel-item>em:hover {
+    text-decoration: underline;
+}
+
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding: 0 6% 3%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.press-image {
+    width: 15%;
+    padding: 0 4% 0;
+    margin: 0 auto;
+}
+
+
+/* Pricong Section */
+
+#pricing {
+    text-align: center;
+    padding: 6rem 0;
+}
+
+#pricing>h2 {
+    color: #ff4c68;
+    font-weight: 500;
+}
+
+#pricing>p {
+    margin-bottom: 2rem;
+}
+
+.pricing-container {
+    padding: 1% 6%;
+}
+
+.price-card {
+    margin: 1rem 0;
+    padding: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(107, 107, 107, 0.2), 0 3px 10px 0 rgba(107, 107, 107, 0.19);
+    transition: all 0.3s;
+}
+
+.price-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price-header {
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.price-header>h3 {
+    padding-top: 1rem;
+}
+
+.card-header:first-child {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.price-body {
+    background-color: #fff;
+    color: #ef8172;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding-left: 2rem;
+}
+
+.card-body>h2 {
+    color: #ef8172;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-body>p {
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+.card-body>a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-color: #ef8172;
+    color: #ef8172;
+}
+
+.card-body>a:hover {
+    background-color: #ef8172;
+    border-color: #ef8172;
+    color: #fff;
+}
+
+
+
+
+/* Call TO Action Section */
+
+#cta {
+    background-color: #fd5971;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#cta>h3 {
+    color: #fff;
+    padding: 0 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.download-btn {
+    font-weight: bold;
+    margin: 1.25% 1%;
+}
+
+
+/* Footer Section */
+
+#footer {
+    padding: 2rem 0;
+    text-align: center;
+    background: #252525;
+    color: #dbdbdb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+
+@media screen and (max-width: 760px) {
+    .hero-img {
+        margin: 7% auto;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    #title {
+        height: 100%;
+    }
+}
+
+/* @media screen and (max-width: 1399px){
+    #title {
+        height: 95%;
+    }
+} */
+
+/* and (min-width:100px) */
